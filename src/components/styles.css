@@ -1,0 +1,12 @@
+:root {
+  --color-black: #000000;
+  --color-grey: #e8e8e8;
+
+  --color-info: #7fbeff;
+  --color-succ: green;
+  --color-error: red;
+
+}
+
+@import './styles/button.css';
+@import './styles/input.css';

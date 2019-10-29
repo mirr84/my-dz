@@ -1,0 +1,67 @@
+button {
+  border: solid 1px #000000;
+  border-radius: 2px;
+  background: 0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+button:hover {
+  filter: saturate(20%);
+}
+
+button:active {
+   filter: saturate(250%);
+}
+
+.button-none {
+  border: solid 1px var(--color-black);
+}
+.button-none:hover,
+.button-none:active {
+  background-color: var(--color-grey);
+  color: black;
+}
+
+.button-info {
+  border: solid 1px var(--color-info);
+}
+.button-info:hover,
+.button-info:active {
+  background-color: var(--color-info);
+  color: black;
+}
+
+.button-succ {
+  border: solid 1px var(--color-succ);
+}
+.button-succ:hover,
+.button-succ:active {
+  background-color: var(--color-succ);
+  color: white;
+}
+
+.button-error {
+  border: solid 1px var(--color-error);
+}
+.button-error:hover,
+.button-error:active {
+  background-color: var(--color-error);
+  color: white;
+}
+
+.button-s {
+  padding: 3px 9px 3px 9px;
+  font-size: 11px;
+}
+
+.button-m {
+  padding: 5px 12px 5px 12px;
+  font-size: 13px;
+}
+
+.button-l {
+  padding: 7px 15px 7px 15px;
+  font-size: 15px;
+}

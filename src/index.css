@@ -1,0 +1,12 @@
+html, body, #root, #root > div, #root > div > table {
+  margin: 0px;
+  height: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+.w-200 {
+  width: 200px;
+}

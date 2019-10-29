@@ -1,0 +1,38 @@
+input {
+  border: solid 1px #000000;
+  border-radius: 2px;
+  background: 0;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.input-none {
+  border: solid 1px var(--color-black);
+}
+
+.input-info {
+  border: solid 1px var(--color-info);
+}
+
+.input-succ {
+  border: solid 1px var(--color-succ);
+}
+
+.input-error {
+  border: solid 1px var(--color-error);
+}
+
+.input-s {
+  padding: 3px 9px 3px 9px;
+  font-size: 11px;
+}
+
+.input-m {
+  padding: 5px 12px 5px 12px;
+  font-size: 13px;
+}
+
+.input-l {
+  padding: 7px 15px 7px 15px;
+  font-size: 15px;
+}
